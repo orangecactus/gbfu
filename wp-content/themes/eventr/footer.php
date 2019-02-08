@@ -47,7 +47,7 @@ $eventr_var = get_option('eventr_var');
 		                
 		                <div class="col-lg-12">
 		                	<?php if ($eventr_var['copyright_content'] == 1): ?>
-								<span><?php echo esc_html($eventr_var['copyright_text']); ?></span>
+								<span><?php echo $eventr_var['copyright_text']; ?></span>
 							<?php endif; ?>
 
 							<?php if ($eventr_var['copyright_content'] == 0): ?>

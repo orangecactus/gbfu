@@ -653,9 +653,9 @@
             // Create inner scope so our variables are not changed by the time the Timeout triggers
             (function() {
                 var delay = 50 * i;
-            //    var rgba = "rgba(" + rgb.r + ", " + rgb.g + ", " + rgb.b + ", " + (Math.round(from * 10) / 10) + ")";
+                //var rgba = "rgba(" + rgb.r + ", " + rgb.g + ", " + rgb.b + ", " + (Math.round(from * 10) / 10) + ")";
                 useWindow.setTimeout(function() {
-                    _this.drawArc(x, y, rgba, 1);
+                    _this.drawArc(x, y, rgb, 1);
                 }, delay);
             }());
             from += step;

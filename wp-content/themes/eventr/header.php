@@ -74,12 +74,9 @@
           <a href="<?php echo esc_url(home_url('/')); ?>"
 		         title="<?php bloginfo('name'); ?>"
 		         class="navbar-brand">
-                <?php if($eventr_var['nav_logo_image']['url']){ ?>
-                	<img class="logo"
-                	src="<?php echo esc_url($eventr_var['nav_logo_image']['url']); ?>" alt="<?php echo bloginfo('name'); ?>"/>
-                <?php } else { ?>	
-                	<h3 class="navhead"><?php bloginfo('name'); ?></h3>
-                <?php } ?>
+                
+                	<h3 class="navhead">#GBFU</h3>
+                
 		      </a>
 		    </div>
 
