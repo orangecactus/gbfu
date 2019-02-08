@@ -1,0 +1,1309 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ThemeCube Core\n"
+"POT-Creation-Date: 2017-12-06 12:31+0300\n"
+"PO-Revision-Date: 2017-12-06 12:31+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: themecube-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: metabox-functions.php:107
+msgid "Speaker Details"
+msgstr ""
+
+#: metabox-functions.php:112
+msgid "Company"
+msgstr ""
+
+#: metabox-functions.php:118
+msgid "Job title"
+msgstr ""
+
+#: metabox-functions.php:124
+msgid "Website URL"
+msgstr ""
+
+#: metabox-functions.php:130
+msgid "Facebook Address"
+msgstr ""
+
+#: metabox-functions.php:136
+msgid "Twitter Address"
+msgstr ""
+
+#: metabox-functions.php:142
+msgid "Instagram Address"
+msgstr ""
+
+#: metabox-functions.php:148
+msgid "Google Plus Address"
+msgstr ""
+
+#: metabox-functions.php:154
+msgid "Linkedin Address"
+msgstr ""
+
+#: metabox-functions.php:163
+msgid "Featured Speaker"
+msgstr ""
+
+#: metabox-functions.php:182
+msgid "Additional Info"
+msgstr ""
+
+#: metabox-functions.php:195
+msgid "Coffee break"
+msgstr ""
+
+#: metabox-functions.php:196
+msgid "Lunch"
+msgstr ""
+
+#: metabox-functions.php:197
+msgid "Registration"
+msgstr ""
+
+#: metabox-functions.php:205
+msgid "Program Details"
+msgstr ""
+
+#: metabox-functions.php:211
+msgid "Program Date"
+msgstr ""
+
+#: metabox-functions.php:212
+msgid "Pick a date for program"
+msgstr ""
+
+#: metabox-functions.php:220
+msgid "Start Time"
+msgstr ""
+
+#: metabox-functions.php:221
+msgid "Select time for program"
+msgstr ""
+
+#: metabox-functions.php:229
+msgid "Duration"
+msgstr ""
+
+#: metabox-functions.php:236
+msgid "Location"
+msgstr ""
+
+#: metabox-functions.php:243
+msgid "Level"
+msgstr ""
+
+#: metabox-functions.php:244
+msgid "Select level (beginner, intermediate, expert etc.)"
+msgstr ""
+
+#: post_type.php:9
+msgctxt "Post Type General Name"
+msgid "Speakers"
+msgstr ""
+
+#: post_type.php:10
+msgctxt "Post Type Singular Name"
+msgid "Speaker"
+msgstr ""
+
+#: post_type.php:11
+msgid "Speakers"
+msgstr ""
+
+#: post_type.php:12
+msgid "Parent Speaker:"
+msgstr ""
+
+#: post_type.php:13
+msgid "All Speakers"
+msgstr ""
+
+#: post_type.php:14
+msgid "View Speaker"
+msgstr ""
+
+#: post_type.php:15 post_type.php:16
+msgid "Add New Speaker"
+msgstr ""
+
+#: post_type.php:17
+msgid "Edit Speaker"
+msgstr ""
+
+#: post_type.php:18
+msgid "Update Speaker"
+msgstr ""
+
+#: post_type.php:19
+msgid "Search Speaker"
+msgstr ""
+
+#: post_type.php:20
+msgid "Not speakers found"
+msgstr ""
+
+#: post_type.php:21
+msgid "Not speakers found in Trash"
+msgstr ""
+
+#: post_type.php:24
+msgid "speaker"
+msgstr ""
+
+#: post_type.php:25 post_type.php:73
+msgid "Post Type Description"
+msgstr ""
+
+#: post_type.php:57
+msgctxt "Post Type General Name"
+msgid "Schedule"
+msgstr ""
+
+#: post_type.php:58
+msgctxt "Post Type Singular Name"
+msgid "Program"
+msgstr ""
+
+#: post_type.php:59 tc_shortcode.php:1139
+msgid "Schedule"
+msgstr ""
+
+#: post_type.php:60
+msgid "Parent program:"
+msgstr ""
+
+#: post_type.php:61
+msgid "All Programs"
+msgstr ""
+
+#: post_type.php:62
+msgid "View Program"
+msgstr ""
+
+#: post_type.php:63 post_type.php:64
+msgid "Add New Program"
+msgstr ""
+
+#: post_type.php:65
+msgid "Edit Program"
+msgstr ""
+
+#: post_type.php:66
+msgid "Update Program"
+msgstr ""
+
+#: post_type.php:67
+msgid "Search Program"
+msgstr ""
+
+#: post_type.php:68
+msgid "Not Program found"
+msgstr ""
+
+#: post_type.php:69
+msgid "Not Program found in Trash"
+msgstr ""
+
+#: post_type.php:72
+msgid "program"
+msgstr ""
+
+#: post_type.php:104
+msgctxt "taxonomy general name"
+msgid "Date"
+msgstr ""
+
+#: post_type.php:105
+msgctxt "taxonomy singular name"
+msgid "Date"
+msgstr ""
+
+#: post_type.php:106
+msgid "Search Dates"
+msgstr ""
+
+#: post_type.php:107
+msgid "All Dates"
+msgstr ""
+
+#: post_type.php:108
+msgid "Parent Date"
+msgstr ""
+
+#: post_type.php:109
+msgid "Parent Date:"
+msgstr ""
+
+#: post_type.php:110
+msgid "Edit Date"
+msgstr ""
+
+#: post_type.php:111
+msgid "Update Date"
+msgstr ""
+
+#: post_type.php:112
+msgid "Add New Date"
+msgstr ""
+
+#: post_type.php:113
+msgid "New Date Name"
+msgstr ""
+
+#: post_type.php:114 tc_shortcode.php:260
+msgid "Date"
+msgstr ""
+
+#: posts-to-posts/admin/box.php:48
+msgid "Are you sure you want to delete all connections?"
+msgstr ""
+
+#: posts-to-posts/admin/box.php:140
+msgid "Search"
+msgstr ""
+
+#: posts-to-posts/admin/box.php:230
+msgid "previous"
+msgstr ""
+
+#: posts-to-posts/admin/box.php:231
+msgid "next"
+msgstr ""
+
+#: posts-to-posts/admin/box.php:232
+msgid "of"
+msgstr ""
+
+#: posts-to-posts/admin/dropdown-user.php:32
+msgid "Filter"
+msgstr ""
+
+#: posts-to-posts/admin/factory.php:88
+msgid " (from)"
+msgstr ""
+
+#: posts-to-posts/admin/factory.php:89
+msgid " (to)"
+msgstr ""
+
+#: posts-to-posts/admin/field-delete.php:7
+msgid "Delete all connections"
+msgstr ""
+
+#: posts-to-posts/admin/field-delete.php:16
+msgid "Delete connection"
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:7
+msgid "Connection Types"
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:41
+#, php-format
+msgid "<em>%s</em> is not a registered connection type."
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:50
+#, php-format
+msgid "Converted %1$s connections from <em>%2$s</em> to <em>%3$s</em>."
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:64 tc_shortcode.php:147
+msgid "Name"
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:65
+msgid "Information"
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:66
+msgid "Connections"
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:74
+msgid "No connection types registered."
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:76
+#, php-format
+msgid "To register a connection type, see <a href=\"%s\">the wiki</a>."
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:93
+msgid "Convert to registered connection type:"
+msgstr ""
+
+#: posts-to-posts/admin/tools-page.php:129
+msgid "Go"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/connection-type.php:91
+msgid "Create connections"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/connection-type.php:109
+#, php-format
+msgid "Connected %s"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/side-user.php:16
+msgid "Users"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/side-user.php:25
+msgid "User"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/side-user.php:26
+msgid "Search Users"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/side-user.php:27
+msgid "No users found."
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/widget.php:19
+msgid "Posts 2 Posts"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/widget.php:20
+msgid "A list of posts connected to the current post"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/widget.php:37
+msgid "Title:"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/widget.php:44
+msgid "Connection type:"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/widget.php:49
+msgid "Connection listing:"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/widget.php:55
+msgid "connected"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/lib-posts-to-posts/widget.php:56
+msgid "related"
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/scb-framework/AdminPage.php:261
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: posts-to-posts/vendor/scribu/scb-framework/AdminPage.php:519
+msgid "Settings"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:22
+msgid "Display the lastest posts of selected category"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:28
+msgid "ThemeCube Recent Posts"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:39
+msgid "Pages"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:108
+msgid "Recent Posts"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:118 tc_shortcode.php:422
+#: tc_shortcode.php:1253 tc_shortcode.php:1394
+msgid "Title"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:124
+msgid "Select category"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:135
+msgid " --- All Categories --- "
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:141
+msgid "Please install and active plugin ThemeCube Core"
+msgstr ""
+
+#: recent-posts/widget-recent-posts.php:145
+msgid "Limit"
+msgstr ""
+
+#: redux-extensions/wbc_importer/exfunctions.php:90
+msgid "Best if used on new WordPress install."
+msgstr ""
+
+#: redux-extensions/wbc_importer/exfunctions.php:91
+msgid "Images are for demo purpose only."
+msgstr ""
+
+#: redux-extensions/wbc_importer/extension_wbc_importer.php:236
+msgid "Demo Already Imported"
+msgstr ""
+
+#: redux-extensions/wbc_importer/extension_wbc_importer.php:262
+#: redux-extensions/wbc_importer/extension_wbc_importer.php:264
+msgid "Demo Importer"
+msgstr ""
+
+#: redux-extensions/wbc_importer/extension_wbc_importer.php:269
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:42
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:72
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:84
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:89
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:279
+#: redux-extensions/wbc_importer/inc/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:256
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:331
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:405
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:427
+msgid "Site does not support widget"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:450
+msgid "Widget already exists"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:499
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+msgid "Imported"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:502
+msgid "Imported to Inactive"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/radium-importer.php:509
+msgid "No Title"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:134
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:143
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:194
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:198
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:511
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:1032
+msgid "Import WordPress"
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:1039
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:1054
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: redux-extensions/wbc_importer/inc/importer/wordpress-importer.php:1055
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: redux-extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""
+
+#: tc_shortcode.php:91
+msgid "LOAD MORE"
+msgstr ""
+
+#: tc_shortcode.php:120
+msgid "Speakers List"
+msgstr ""
+
+#: tc_shortcode.php:123 tc_shortcode.php:253 tc_shortcode.php:414
+#: tc_shortcode.php:581 tc_shortcode.php:775 tc_shortcode.php:912
+#: tc_shortcode.php:1142 tc_shortcode.php:1210 tc_shortcode.php:1343
+#: tc_shortcode.php:1484 tc_shortcode.php:1541 tc_shortcode.php:1668
+#: tc_shortcode.php:1793 tc_shortcode.php:1951 tc_shortcode.php:2032
+#: tc_shortcode.php:2167
+msgid "ThemeCube Shortcodes"
+msgstr ""
+
+#: tc_shortcode.php:125
+msgid "Add speakers"
+msgstr ""
+
+#: tc_shortcode.php:130 tc_shortcode.php:2175
+msgid "How many items in a row?"
+msgstr ""
+
+#: tc_shortcode.php:133 tc_shortcode.php:2178
+msgid "3 items"
+msgstr ""
+
+#: tc_shortcode.php:134 tc_shortcode.php:2179
+msgid "4 items"
+msgstr ""
+
+#: tc_shortcode.php:135
+msgid "5 items"
+msgstr ""
+
+#: tc_shortcode.php:136 tc_shortcode.php:2180
+msgid "6 items"
+msgstr ""
+
+#: tc_shortcode.php:143
+msgid "Sort items by"
+msgstr ""
+
+#: tc_shortcode.php:146
+msgid "None"
+msgstr ""
+
+#: tc_shortcode.php:148
+msgid "Random"
+msgstr ""
+
+#: tc_shortcode.php:154
+msgid "Show load more button"
+msgstr ""
+
+#: tc_shortcode.php:156 tc_shortcode.php:162 tc_shortcode.php:632
+#: tc_shortcode.php:812 tc_shortcode.php:2188
+msgid "Yes"
+msgstr ""
+
+#: tc_shortcode.php:160 tc_shortcode.php:2186
+msgid "Zero gap between items?"
+msgstr ""
+
+#: tc_shortcode.php:168
+msgid "Filter by tag"
+msgstr ""
+
+#: tc_shortcode.php:171
+msgid "Such as speaker, chair, keynote"
+msgstr ""
+
+#: tc_shortcode.php:250
+msgid "Countdown"
+msgstr ""
+
+#: tc_shortcode.php:263
+msgid "Please enter a date like this format 2020/12/18 00:00:00"
+msgstr ""
+
+#: tc_shortcode.php:268
+msgid "Numbers Color"
+msgstr ""
+
+#: tc_shortcode.php:275
+msgid "Text Color"
+msgstr ""
+
+#: tc_shortcode.php:282
+msgid "Days field label"
+msgstr ""
+
+#: tc_shortcode.php:289
+msgid "Days Circle Color"
+msgstr ""
+
+#: tc_shortcode.php:296
+msgid "Hours field label"
+msgstr ""
+
+#: tc_shortcode.php:303
+msgid "Hours Circle Color"
+msgstr ""
+
+#: tc_shortcode.php:310
+msgid "Minutes field label"
+msgstr ""
+
+#: tc_shortcode.php:317
+msgid "Minutes Circle Color"
+msgstr ""
+
+#: tc_shortcode.php:324
+msgid "Seconds field label"
+msgstr ""
+
+#: tc_shortcode.php:331
+msgid "Seconds Circle Color"
+msgstr ""
+
+#: tc_shortcode.php:410
+msgid "Price table"
+msgstr ""
+
+#: tc_shortcode.php:416
+msgid "Add price table"
+msgstr ""
+
+#: tc_shortcode.php:429 tc_shortcode.php:1260 tc_shortcode.php:1401
+msgid "Title Color"
+msgstr ""
+
+#: tc_shortcode.php:437
+msgid "Price"
+msgstr ""
+
+#: tc_shortcode.php:444
+msgid "Price Color"
+msgstr ""
+
+#: tc_shortcode.php:451 tc_shortcode.php:1268 tc_shortcode.php:1409
+#: tc_shortcode.php:1691 tc_shortcode.php:2102
+msgid "Content"
+msgstr ""
+
+#: tc_shortcode.php:458
+msgid "Background Color"
+msgstr ""
+
+#: tc_shortcode.php:464
+msgid "URL (Link)"
+msgstr ""
+
+#: tc_shortcode.php:466
+msgid "Add link to custom heading."
+msgstr ""
+
+#: tc_shortcode.php:472
+msgid "Background Icon"
+msgstr ""
+
+#: tc_shortcode.php:479 tc_shortcode.php:1225 tc_shortcode.php:1357
+#: tc_shortcode.php:1555
+msgid "Select icon from library."
+msgstr ""
+
+#: tc_shortcode.php:578
+msgid "Sponsor"
+msgstr ""
+
+#: tc_shortcode.php:583
+msgid "Add Sponsor"
+msgstr ""
+
+#: tc_shortcode.php:589
+msgid "Sponsor Logo"
+msgstr ""
+
+#: tc_shortcode.php:596
+msgid "Image Align"
+msgstr ""
+
+#: tc_shortcode.php:599
+msgid "Left"
+msgstr ""
+
+#: tc_shortcode.php:600
+msgid "Center"
+msgstr ""
+
+#: tc_shortcode.php:601
+msgid "Right"
+msgstr ""
+
+#: tc_shortcode.php:609
+msgid "Title (Optional)"
+msgstr ""
+
+#: tc_shortcode.php:611
+msgid "Optional"
+msgstr ""
+
+#: tc_shortcode.php:617
+msgid "Short Info (Optional)"
+msgstr ""
+
+#: tc_shortcode.php:623 tc_shortcode.php:918
+msgid "Sponsor URL (Optional)"
+msgstr ""
+
+#: tc_shortcode.php:625 tc_shortcode.php:818 tc_shortcode.php:920
+msgid "Add link to the sponsor logo and button."
+msgstr ""
+
+#: tc_shortcode.php:629 tc_shortcode.php:809
+msgid "Show Button (Optional)"
+msgstr ""
+
+#: tc_shortcode.php:631
+msgid "Add a button for sponsor website link."
+msgstr ""
+
+#: tc_shortcode.php:637 tc_shortcode.php:824 tc_shortcode.php:925
+msgid "Button Style"
+msgstr ""
+
+#: tc_shortcode.php:640
+msgid "Default"
+msgstr ""
+
+#: tc_shortcode.php:641 tc_shortcode.php:828 tc_shortcode.php:929
+msgid "Light"
+msgstr ""
+
+#: tc_shortcode.php:645 tc_shortcode.php:832 tc_shortcode.php:932
+msgid "Add style for button."
+msgstr ""
+
+#: tc_shortcode.php:772
+msgid "Hotel"
+msgstr ""
+
+#: tc_shortcode.php:777
+msgid "Add Hotel Alternative"
+msgstr ""
+
+#: tc_shortcode.php:783
+msgid "Hotel Image"
+msgstr ""
+
+#: tc_shortcode.php:791
+msgid "Hotel Name"
+msgstr ""
+
+#: tc_shortcode.php:797
+msgid "Hotel Name Color"
+msgstr ""
+
+#: tc_shortcode.php:803
+msgid "Hotel Info"
+msgstr ""
+
+#: tc_shortcode.php:811
+msgid "Add a button for hotel website link."
+msgstr ""
+
+#: tc_shortcode.php:816
+msgid "Hotel URL (Optional)"
+msgstr ""
+
+#: tc_shortcode.php:827 tc_shortcode.php:928
+msgid "Dark"
+msgstr ""
+
+#: tc_shortcode.php:838
+msgid "Hotel rating"
+msgstr ""
+
+#: tc_shortcode.php:909
+msgid "Button"
+msgstr ""
+
+#: tc_shortcode.php:914
+msgid "Add button"
+msgstr ""
+
+#: tc_shortcode.php:937 tc_shortcode.php:2046
+msgid "Button Size"
+msgstr ""
+
+#: tc_shortcode.php:940 tc_shortcode.php:2049
+msgid "xsmall"
+msgstr ""
+
+#: tc_shortcode.php:941 tc_shortcode.php:2050
+msgid "small"
+msgstr ""
+
+#: tc_shortcode.php:942 tc_shortcode.php:2051
+msgid "medium"
+msgstr ""
+
+#: tc_shortcode.php:943 tc_shortcode.php:2052
+msgid "big"
+msgstr ""
+
+#: tc_shortcode.php:1144
+msgid "Add schedule layout"
+msgstr ""
+
+#: tc_shortcode.php:1150 tc_shortcode.php:1492 tc_shortcode.php:2201
+msgid "Class"
+msgstr ""
+
+#: tc_shortcode.php:1208
+msgid "Info Box"
+msgstr ""
+
+#: tc_shortcode.php:1212 tc_shortcode.php:1345
+msgid "Add an infobox"
+msgstr ""
+
+#: tc_shortcode.php:1218 tc_shortcode.php:1350 tc_shortcode.php:1548
+msgid "Icon"
+msgstr ""
+
+#: tc_shortcode.php:1231 tc_shortcode.php:1362 tc_shortcode.php:1372
+#: tc_shortcode.php:1561
+msgid "Icon Color"
+msgstr ""
+
+#: tc_shortcode.php:1240 tc_shortcode.php:1381
+msgid "Icon Size"
+msgstr ""
+
+#: tc_shortcode.php:1243 tc_shortcode.php:1384
+msgid "2x"
+msgstr ""
+
+#: tc_shortcode.php:1244 tc_shortcode.php:1385
+msgid "3x"
+msgstr ""
+
+#: tc_shortcode.php:1245 tc_shortcode.php:1386
+msgid "4x"
+msgstr ""
+
+#: tc_shortcode.php:1246 tc_shortcode.php:1387
+msgid "5x"
+msgstr ""
+
+#: tc_shortcode.php:1275 tc_shortcode.php:1416 tc_shortcode.php:1698
+msgid "Content Color"
+msgstr ""
+
+#: tc_shortcode.php:1282
+msgid "Alignment"
+msgstr ""
+
+#: tc_shortcode.php:1285 tc_shortcode.php:2071
+msgid "center"
+msgstr ""
+
+#: tc_shortcode.php:1286 tc_shortcode.php:2072
+msgid "left"
+msgstr ""
+
+#: tc_shortcode.php:1287 tc_shortcode.php:2073
+msgid "right"
+msgstr ""
+
+#: tc_shortcode.php:1341
+msgid "Info Box 2"
+msgstr ""
+
+#: tc_shortcode.php:1365
+msgid "Solid Color"
+msgstr ""
+
+#: tc_shortcode.php:1366
+msgid "Gradient"
+msgstr ""
+
+#: tc_shortcode.php:1481
+msgid "News Carousel"
+msgstr ""
+
+#: tc_shortcode.php:1486
+msgid "Add news carousel"
+msgstr ""
+
+#: tc_shortcode.php:1539
+msgid "Funfact"
+msgstr ""
+
+#: tc_shortcode.php:1543
+msgid "Add funfacts"
+msgstr ""
+
+#: tc_shortcode.php:1570
+msgid "Counter"
+msgstr ""
+
+#: tc_shortcode.php:1577
+msgid "Counter Color"
+msgstr ""
+
+#: tc_shortcode.php:1585
+msgid "Counter title"
+msgstr ""
+
+#: tc_shortcode.php:1592
+msgid "Counter Title Color"
+msgstr ""
+
+#: tc_shortcode.php:1663
+msgid "Testimonials"
+msgstr ""
+
+#: tc_shortcode.php:1670
+msgid "Add testimonial bubble"
+msgstr ""
+
+#: tc_shortcode.php:1676
+msgid "Header"
+msgstr ""
+
+#: tc_shortcode.php:1683 tc_shortcode.php:1720 tc_shortcode.php:1735
+msgid "Header Color"
+msgstr ""
+
+#: tc_shortcode.php:1705
+msgid "Author Image"
+msgstr ""
+
+#: tc_shortcode.php:1713
+msgid "Author Name"
+msgstr ""
+
+#: tc_shortcode.php:1728
+msgid "Author Title"
+msgstr ""
+
+#: tc_shortcode.php:1787
+msgid "ThemeCube Carousel"
+msgstr ""
+
+#: tc_shortcode.php:1800
+msgid "ID"
+msgstr ""
+
+#: tc_shortcode.php:1807
+msgid "Slide Count"
+msgstr ""
+
+#: tc_shortcode.php:1814
+msgid "Autoplay"
+msgstr ""
+
+#: tc_shortcode.php:1817
+msgid "Autoplay: true, false or ex. 3000"
+msgstr ""
+
+#: tc_shortcode.php:1822
+msgid "Single Item"
+msgstr ""
+
+#: tc_shortcode.php:1825
+msgid "Single item: true or false"
+msgstr ""
+
+#: tc_shortcode.php:1948
+msgid "Custom Google Map"
+msgstr ""
+
+#: tc_shortcode.php:1958
+msgid "Map ID"
+msgstr ""
+
+#: tc_shortcode.php:1967
+msgid "Map Height"
+msgstr ""
+
+#: tc_shortcode.php:1970
+msgid "Ex. 230px"
+msgstr ""
+
+#: tc_shortcode.php:2029
+msgid "Modal Box"
+msgstr ""
+
+#: tc_shortcode.php:2034
+msgid "Add modal box"
+msgstr ""
+
+#: tc_shortcode.php:2039
+msgid "Modal ID"
+msgstr ""
+
+#: tc_shortcode.php:2058
+msgid "Style"
+msgstr ""
+
+#: tc_shortcode.php:2061
+msgid "light"
+msgstr ""
+
+#: tc_shortcode.php:2062
+msgid "dark"
+msgstr ""
+
+#: tc_shortcode.php:2068
+msgid "Position"
+msgstr ""
+
+#: tc_shortcode.php:2079
+msgid "Form title"
+msgstr ""
+
+#: tc_shortcode.php:2086
+msgid "Form description"
+msgstr ""
+
+#: tc_shortcode.php:2094
+msgid "Button text"
+msgstr ""
+
+#: tc_shortcode.php:2165
+msgid "ThemeCube Gallery"
+msgstr ""
+
+#: tc_shortcode.php:2169
+msgid "Add custom gallery"
+msgstr ""
+
+#: tc_shortcode.php:2194
+msgid "Images"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ThemeCube Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://themecube.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Eventr Wordpress Theme shortcodes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "themecube"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/themecube"
+msgstr ""
