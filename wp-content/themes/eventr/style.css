@@ -2775,3 +2775,8 @@ button {
 }
 
 
+div.vc_custom_heading.vc_gitem-post-data.vc_gitem-post-data-source-post_excerpt > p{
+	display:none;
+}
+
+
