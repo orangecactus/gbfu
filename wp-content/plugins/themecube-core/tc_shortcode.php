@@ -954,12 +954,14 @@ vc_map( array(
 
 
 // Schedule shortcode
+// Schedule shortcode
 add_shortcode('schedule', 'shortcode_schedule');
 function shortcode_schedule($atts, $content=null){
     global $eventr_var;
     $atts = shortcode_atts(
         array(
         'class'     => '',
+        'filter_tag'  => '',
     ), $atts);
     $html ='';
     $html .='<div class="schedule">';
@@ -983,21 +985,16 @@ function shortcode_schedule($atts, $content=null){
     $html .= '<div id="myTabContent" class="tab-content">'; //content başlangıcı
     $d = 0;
     foreach($schedules_date as $schedule_date) {
-
         $schedule_active1 = '';
         $k = 0;
         if($d == 0){$schedule_active1 = 'active'; $d++;}
-
         $html .= '<div role="tabpanel" class="tab-pane fade in '.$schedule_active1.'" id="'.$schedule_date->slug.'" aria-labelledby="'.$schedule_date->slug.'-tab">
                 <div id="accordion-'.$schedule_date->slug.'" class="panel-group" role="tablist" aria-multiselectable="true">';
-
-                $args = array('post_type' => 'schedule','date'=>$schedule_date->slug, 'meta_key'=> 'tc_program_time', 'posts_per_page'=>'-1', 'orderby'=>'meta_value', 'order'=>'ASC');
+                $args = array('post_type' => 'schedule','date'=>$schedule_date->slug, 'meta_key'=> 'tc_program_time', 'posts_per_page'=>'-1', 'orderby'=>'meta_value', 'tag'=> $atts['filter_tag'], 'order'=>'ASC');
                 $schedule = new WP_QUery($args);
                 global $post;
-
                 if($schedule->have_posts()):
                     while($schedule->have_posts()): $schedule->the_post();
-
                     $thumbnail_url = wp_get_attachment_url(get_post_thumbnail_id());
                     $program_time = get_post_meta($post->ID, "tc_program_time", true);
                     $program_duration = get_post_meta($post->ID, "tc_program_duration", true);
@@ -1006,15 +1003,11 @@ function shortcode_schedule($atts, $content=null){
                     // $speaker_short_bio = get_post_meta($post->ID, "tc_speaker_short_bio", true);
                     $content = get_the_content();
                     $title = get_the_title();
-
-
                     
-
         $html .= '<div class="panel panel-default">
                     
                     <div class="panel-heading" role="tab" id="heading-'.get_the_ID().'">
                         <div class="row">
-
                             <div class="col-lg-1 col-md-1 col-sm-1">
                                 <p class="date">'.$program_time.'</p>
                             </div>
@@ -1026,28 +1019,22 @@ function shortcode_schedule($atts, $content=null){
                                     '.get_the_title().'
                                     </a>
                                 </h4>
-
                             </div>
-
                         </div>
                     </div>';
-
           $html .= '<div id="'.get_the_ID().'" class="panel-collapse collapse" role="tabpanel" aria-labelledby="'.get_the_ID().'">
           
                                         
                         <div class="panel-body">
                             <div class="row">';
-
                             $connected = new WP_Query( array(
                               'connected_type' => 'speaker_program',
                               'connected_items' => $post,
                               'nopaging' => true,
                             ) );  
-
                              
                             if ( $connected->have_posts() ) :
                                 while ( $connected->have_posts() ) : $connected->the_post();
-
                                     $speaker_job = get_post_meta($post->ID, "tc_speaker_job", true);
                                     $speaker_company = get_post_meta($post->ID, "tc_speaker_company", true);
                                     $thumbnail_url = wp_get_attachment_image_src(get_post_thumbnail_id(), '');
@@ -1057,11 +1044,9 @@ function shortcode_schedule($atts, $content=null){
                                     $speaker_excerpt = get_the_excerpt();
                                     $speaker_url = get_post_meta($post->ID, "tc_speaker_website", true);
                                     $link = get_permalink();
-
                                 endwhile; 
                                //wp_reset_postdata(); 
                             endif;  
-
                                 
                             
                            if($thumbnail_url){ 
@@ -1092,13 +1077,11 @@ function shortcode_schedule($atts, $content=null){
                                 </div>
                                 
                                 <div class="col-lg-3 col-md-3 col-sm-10">';
-
                                      if ( $connected->have_posts() ) :
                                 while ( $connected->have_posts() ) : $connected->the_post();
                                     $speaker_name = get_the_title();
                                     $speaker_excerpt = get_the_excerpt();
                                     $speaker_url = get_post_meta($post->ID, "tc_speaker_website", true);
-
                                     if($speaker_name){
                                     $html .= '<h5>'.$speaker_name.'</h5>';}
                                     
@@ -1107,7 +1090,6 @@ function shortcode_schedule($atts, $content=null){
                                     
                                     if($speaker_url){
                                         $html .= '<span class="about-speaker"><i class="fa fa-lg fa-globe"></i> <a class="small" href="'.$speaker_url.'" target="_blank">'.$speaker_url.'</a></span>';}
-
                                      endwhile; 
                                 wp_reset_postdata(); 
                             endif; 
@@ -1120,21 +1102,15 @@ function shortcode_schedule($atts, $content=null){
                                                                    
                            
              $html .= '</div></div>';
-
                 endwhile;
                 endif;
-
        
         $html .= '</div></div>';
-
     }   $html .= '</div>';  
     
     return $html;                      
 }
-
-
 if(function_exists('vc_map')){
-
 vc_map( array(
    "name" => __("Schedule", 'eventr'),
    "base" => "schedule",
@@ -1150,14 +1126,21 @@ vc_map( array(
          "heading" => __("Class",'eventr'),
          "param_name" => "class",
          "value" => "",
-      )
+    ),
+     array(
+        "type" => "textfield",
+        "holder" => "div",
+        "class" => "",
+        "heading" => __("Filter by tag",'eventr'),
+        "param_name" => "filter_tag",
+        "value" => "",
+    )
      
    )
 ) );
-
 }
-
 //End Schedule Shortcode
+
 
 
 // Infobox Shortcode ******
